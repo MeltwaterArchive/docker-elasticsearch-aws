@@ -1,0 +1,17 @@
+# additional configuration
+bootstrap.mlockall: true
+
+# AWS discovery
+#cloud.aws.access_key: ""
+#cloud.aws.secret_key: ""
+
+plugin.mandatory: "cloud-aws"
+
+discovery.type: "ec2"
+#discovery.ec2.groups: "elasticsearch cluster"
+discovery.ec2.host_type: "private_ip"
+discovery.ec2.ping_timeout: "30s"
+#discovery.ec2.availability_zones: "us-east-1a"
+#cloud.aws.region: "us-east"
+
+discovery.zen.ping.multicast.enabled: false
