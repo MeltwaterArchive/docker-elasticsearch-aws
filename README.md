@@ -10,7 +10,7 @@ some configuration defaults added.
 
 ```
 docker run --net=host \
-  mikljohansson/elasticsearch-aws \
+  meltwater/elasticsearch-aws \
   -Des.cloud.aws.access_key=my-access-key-id \
   -Des.cloud.aws.secret_key=my-secret-access-key \
   -Des.cloud.aws.region=us-east-1 \
